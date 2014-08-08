@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="genweb.logosfooter"
+    interface="genweb.logosfooter.interfaces.IGenwebLogosfooterLayer"
+  />
+</layers>
