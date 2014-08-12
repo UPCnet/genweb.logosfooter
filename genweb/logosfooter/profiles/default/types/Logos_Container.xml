@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<object name="LogosContainer" meta_type="Dexterity FTI" i18n:domain="genweb.banners"
+<object name="Logos_Container" meta_type="Dexterity FTI" i18n:domain="genweb.banners"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
- <property name="title" i18n:translate="">LogosContainer</property>
+ <property name="title" i18n:translate="">Logos_Container</property>
  <property name="description" i18n:translate=""></property>
  <property name="icon_expr"></property>
- <property name="factory">LogosContainer</property>
+ <property name="factory">Logos_Container</property>
  <property name="link_target"></property>
  <property name="immediate_view">view</property>
  <property name="global_allow">False</property>
  <property name="filter_content_types">True</property>
  <property name="allowed_content_types">
-   <element value="Logos_footer"/>
+   <element value="Logos_Footer"/>
  </property>
  <property name="allow_discussion">False</property>
  <property name="default_view">folder_listing</property>

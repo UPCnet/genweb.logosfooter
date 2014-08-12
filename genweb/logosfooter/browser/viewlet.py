@@ -6,7 +6,7 @@ from plone.app.layout.viewlets.interfaces import IPortalFooter
 
 from genweb.logosfooter.interfaces import IGenwebLogosfooterLayer
 
-from genweb.banners import logosfooterMessageFactory as _
+from genweb.banners import _
 
 grok.context(Interface)
 

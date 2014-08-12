@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<object name="Logos_footer" meta_type="Dexterity FTI"
+<object name="Logos_Footer" meta_type="Dexterity FTI"
    i18n:domain="genweb.banners" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
  <!-- Basic metadata -->
- <property name="title" i18n:translate="">Logos_footer</property>
+ <property name="title" i18n:translate="">Logos_Footer</property>
  <property name="description" i18n:translate="">A footer logo</property>
  <property name="content_icon">logosfooter.gif</property>
  <property name="allow_discussion">False</property>
@@ -15,7 +15,7 @@
  <property name="schema">genweb.banners.content.banner.IBanner</property>
 
  <!-- class used for content items -->
- <property name="klass">genweb.banners.content.Banner</property>
+ <property name="klass">genweb.logosfooter.content.Logo</property>
 
  <!-- add permission -->
  <property name="add_permission">cmf.AddPortalContent</property>
