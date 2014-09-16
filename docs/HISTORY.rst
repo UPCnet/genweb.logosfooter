@@ -1,11 +1,12 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2014-09-16)
 ----------------
 
-- Nothing changed yet.
-
+* Fixed [Victor Fernandez de Alba]
+* Added new file [Victor Fernandez de Alba]
+* Deleted conflictive git file [Victor Fernandez de Alba]
 
 1.0 (2014-09-16)
 ----------------
