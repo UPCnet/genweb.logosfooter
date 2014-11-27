@@ -7,6 +7,7 @@ from plone.app.layout.viewlets.interfaces import IPortalFooter
 from genweb.logosfooter.interfaces import IGenwebLogosfooterLayer
 
 from genweb.banners import _
+from genweb.core import utils
 
 grok.context(Interface)
 
@@ -25,9 +26,11 @@ class logosFooterViewlet(grok.Viewlet):
 
     def getLogosFooter(self):
         catalog = api.portal.get_tool(name='portal_catalog')
+        lang = utils.pref_lang()
 
         return catalog.searchResults(portal_type='Logos_Footer',
                                      review_state=['published', 'intranet'],
+                                     Language=lang,
                                      sort_on='getObjPositionInParent',
                                      sort_limit=5)[:5]
 
