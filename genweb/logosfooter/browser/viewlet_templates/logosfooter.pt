@@ -7,7 +7,7 @@
         <li tal:repeat="logo logos" role="listitem">
             <a rel="tooltip" data-placement="top"
                tal:define="target python:logo.open_link_in_new_window and '_blank' or None"
-               tal:attributes="href logo/URLdesti | nothing;
+               tal:attributes="href logo/getRemoteUrl| nothing;
                                  data-original-title logo/Title;
                                  target target | nothing">
                 <img tal:condition="logo/open_link_in_new_window"

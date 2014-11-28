@@ -27,7 +27,6 @@ class logosFooterViewlet(grok.Viewlet):
     def getLogosFooter(self):
         catalog = api.portal.get_tool(name='portal_catalog')
         lang = utils.pref_lang()
-
         return catalog.searchResults(portal_type='Logos_Footer',
                                      review_state=['published', 'intranet'],
                                      Language=lang,
