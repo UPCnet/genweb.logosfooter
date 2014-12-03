@@ -2,7 +2,7 @@
 <aside id="bandaLogos"
        tal:condition="logos" role="complementary"  aria-labelledby="titol-banda-logos">
     <div class="container">
-      <h2 class="goout" id="titol-banda-logos">Banda de d'enllacos de peu</h2>
+      <h2 class="goout" id="titol-banda-logos" i18n:domain="genweb" i18n:translate="layout_banda_logos">Banda de d'enllacos de peu</h2>
       <ul class="llistatLogos" role="list">
         <li tal:repeat="logo logos" role="listitem">
             <a rel="tooltip" data-placement="top"
