@@ -1,11 +1,13 @@
 Changelog
 =========
 
-1.3 (unreleased)
+1.3 (2014-12-03)
 ----------------
 
-- Nothing changed yet.
-
+* Traducciones [Francisco Gregori]
+* Add open newwindow and image link [hanirok]
+* Internacionalizar los logos del pie [hanirok]
+* Show image logosfooter [hanirok]
 
 1.2 (2014-09-29)
 ----------------
