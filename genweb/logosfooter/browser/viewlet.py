@@ -31,7 +31,7 @@ class logosFooterViewlet(grok.Viewlet):
                                      review_state=['published', 'intranet'],
                                      Language=lang,
                                      sort_on='getObjPositionInParent',
-                                     sort_limit=5)[:5]
+                                     sort_limit=7)[:7]
 
     def getAltAndTitle(self, altortitle):
         """ Funcio que extreu idioma actiu i afegeix al alt i al title de les imatges del banner
