@@ -12,12 +12,10 @@
                                  target target | nothing">
                 <img tal:condition="logo/open_link_in_new_window"
                      tal:attributes="src string:${logo/getURL}/@@images/image;
-                                     alt python:viewlet.getAltAndTitle(logo.Title);
-                                     title python:viewlet.getAltAndTitle(logo.Title)">
+                                     alt python:viewlet.getAltAndTitle(logo.Title)">
                 <img tal:condition="not: logo/open_link_in_new_window"
                      tal:attributes="src string:${logo/getURL}/@@images/image;
-                                     alt logo/Title;
-                                     title logo/Title">
+                                     alt logo/Title">
             </a>
         </li>
       </ul>
