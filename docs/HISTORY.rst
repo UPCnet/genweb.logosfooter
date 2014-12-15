@@ -1,11 +1,11 @@
 Changelog
 =========
 
-1.4 (unreleased)
+1.4 (2014-12-15)
 ----------------
 
-- Nothing changed yet.
-
+* Remove Title from image [hanirok]
+* Logos limit 7 [hanirok]
 
 1.3 (2014-12-03)
 ----------------
