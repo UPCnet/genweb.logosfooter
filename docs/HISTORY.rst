@@ -1,11 +1,10 @@
 Changelog
 =========
 
-1.5 (unreleased)
+1.5 (2017-02-15)
 ----------------
 
-- Nothing changed yet.
-
+* treure limitacio de 7 [Iago López Fernández]
 
 1.4 (2014-12-15)
 ----------------
